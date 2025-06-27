@@ -24,18 +24,37 @@ Este repositório apresenta um projeto de Machine Learning para prever o preço 
 
 ## 📈 Resultados
 
-| Modelo              | R² Treino | R² Teste | RMSE Teste |
-|---------------------|-----------|----------|------------|
-| Linear Regression   | 0.XX      | 0.XX     | XXXX.XX    |
-| Decision Tree       | 0.XX      | 0.XX     | XXXX.XX    |
-| KNN Regressor       | 0.XX      | 0.XX     | XXXX.XX    |
+| Modelo              | R² Treino | R² Teste |
+|---------------------|-----------|----------|
+| Linear Regression   | 0.6864    | 0.7019   | 
+| Decision Tree       | 0.6950    | 0.6987   | 
+| KNN Regressor       | 0.6987    | 0.6922   |
 
-*Substitua pelos seus valores reais.*
 
 ## 🚀 Como Executar
 
 ```bash
 # Instale dependências
 pip install -r requirements.txt
+
+/king-county-house-prices/
+├── data/
+│   └── kc_house_data.csv
+├── notebooks/
+│   └── 01_data_preprocessing.ipynb
+│   └── 02_model_training.ipynb
+│   └── 03_visualization.ipynb
+├── outputs/
+│   ├── models/
+│   │   └── knn_model.pkl
+│   │   └── dtree_model.pkl
+│   │   └── linreg_model.pkl
+│   ├── figures/
+│   │   └── knn_real_vs_pred.png
+│   │   └── dtree_real_vs_pred.png
+│   │   └── linreg_real_vs_pred.png
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 # Execute o notebook ou script principal
