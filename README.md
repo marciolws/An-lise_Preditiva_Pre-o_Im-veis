@@ -37,24 +37,5 @@ Este repositório apresenta um projeto de Machine Learning para prever o preço 
 # Instale dependências
 pip install -r requirements.txt
 
-/king-county-house-prices/
-├── data/
-│   └── kc_house_data.csv
-├── notebooks/
-│   └── 01_data_preprocessing.ipynb
-│   └── 02_model_training.ipynb
-│   └── 03_visualization.ipynb
-├── outputs/
-│   ├── models/
-│   │   └── knn_model.pkl
-│   │   └── dtree_model.pkl
-│   │   └── linreg_model.pkl
-│   ├── figures/
-│   │   └── knn_real_vs_pred.png
-│   │   └── dtree_real_vs_pred.png
-│   │   └── linreg_real_vs_pred.png
-├── requirements.txt
-├── README.md
-└── .gitignore
 
 # Execute o notebook ou script principal
